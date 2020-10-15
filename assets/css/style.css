@@ -1,0 +1,668 @@
+/**********************************************************
+    Theme Name: 
+	Theme URI: http://
+	Description: 
+	Author: Akjm Al-Amin
+	Author URI: 
+	Version: 1.0        
+
+***********************************************************/
+
+
+/**********************************************************
+***************     CSS TABLE OF CONTENT   ****************
+***********************************************************
+*
+*
+*
+***********************************************************/
+
+
+/**********************************************************
+**************    START GLOBAL SECTION CSS    *************
+***********************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none !important;
+    list-style: none;
+    box-sizing:border-box;
+}
+html{
+    width:100%;
+    overflow-x: hidden;
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:15px;
+    line-height:24px;
+    color:#3D3C3C !important;
+    font-weight: 400;
+    width:100%;
+    position: relative;
+    font-family: 'Roboto';
+
+}
+
+a{
+    text-decoration: none !important;
+}
+p{
+    line-height: 25px;
+    font-size: 15px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0 !important;
+    padding:0 !important;
+}
+h1{
+    font-size:55px;
+    font-weight: 700;
+}
+h2{
+   
+}
+
+h3 {
+    
+}
+h4{
+	font-weight: 400;
+	font-size: 22px;
+}
+h5 {
+	
+}
+h6{
+   
+}
+input, textarea, select {
+	outline: 0 none !important;
+	border-radius: 0 !important;
+	background: transparent !important;
+    border: 1px solid #B3BAC1 !important;
+    
+}
+input[type="submit"]{
+    border: 1px solid transparent !important;
+    font-size:14px;
+}
+input[type="button"]{
+    border: 1px solid transparent !important;
+}
+input[type="search"]{
+    border: 1px solid #fff !important;
+}
+input[type="search"]:focus{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
+}
+ input[type="tel"]:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
+    border: 1px solid #0258A8 !important;
+}
+input[type="button"]:focus, input[type="submit"]:focus, button:focus{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
+    border: 0px solid transparent !important;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 14px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+	font-size: 14px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+	font-size: 14px;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+	font-size: 14px;
+}
+input::placeholder, textarea::placeholder {
+	font-size: 14px;
+}
+select:focus{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
+    border: 1px solid #0258A8 !important;
+}
+select{
+    font-size:14px !important;
+}
+ select option{
+    color:#2C2D3F !important;
+    margin-bottom: 10px !important;
+    font-size:14px;
+    font-family: 'Roboto';
+}
+.section-padding{
+	padding: 80px 0;
+}
+/**********************************************************
+**************      END GLOBAL SECTION CSS    *************
+***********************************************************/
+
+
+
+/**********************************************************
+**************     START HEADER SECTION CSS   *************
+***********************************************************/
+
+/* start header section css */
+
+.top-header-section {
+	padding: 1px 0px;
+	background-color: #0086cd;
+	/* text-align: #fff !important; */
+}
+.top-header-section .header-contact i {
+	font-size: 12px;
+	margin-right: 2px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+}
+.top-header-section .header-contact a {
+    margin-right: 23px;
+    font-weight: 300;
+    color: #fff;
+}
+.top-header-section .header-contact a:last-child {
+	margin-right: 0px;
+}
+.top-header-section .header-contact a span {
+	font-size: 13px;
+	margin: 0 8px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.header-top-social{
+    text-align: right;
+}
+.header-top-social h5 {
+	font-size: 13px;
+	font-weight: 500;
+	margin-right: 15px !important;
+	color: #fff;
+}
+
+
+
+.header-top-social i {
+	font-size: 12px;
+	margin-right: 10px;
+	line-height: 30px;
+	color: #fff;
+}
+.header-top-social :last-child i{
+    margin-right:0px;
+}
+
+/* nav */
+.custom-shadow{
+    padding: 20px 0;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
+}
+.header-padding{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.logo-size {
+	width: 300px;
+	height: 50px;
+}
+.navbar .nav-item a.nav-link {
+	color: #333 !important;
+	font-family: 'Roboto';
+	font-weight: 400;
+	margin-left: 20px;
+}
+.navbar .nav-item: a.nav-link{
+	margin-left:0px;
+}
+/* mega menu */
+.mega-area{
+	position: static;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	border: none !important;
+	border-radius: 0px !important;
+	top: 90px;
+	background:#F1F1F1 !important;
+}
+.mega-menu {
+	position: absolute;
+	/* width: 100%; */
+	left: 0;
+	right: 0;
+	max-width: 1110px;
+	padding: 26px 10px;
+	width: 100%;
+	margin: 0 auto;
+}
+.mega-menu .dropdown-item{
+	/* padding:5px 0; */
+}
+.mega-one{
+	padding:0 12px;
+	position: relative;
+}
+.mega-one::after {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 180px;
+	background-color: #33333329;
+	right: -15px;
+	top: 0px;
+}
+.mega-one h5 {
+	border-bottom: 1px solid #3336;
+	margin-bottom: 10px !important;
+	padding-bottom: 8px !important;
+	text-align: center;
+}
+
+.section-title p{
+	margin-top:20px !important;
+}
+
+/**********************************************************
+************** 	  END HEADER SECTION CSS   ****************
+***********************************************************/
+
+
+/**********************************************************
+************** 	  START SLIDER SECTION CSS   **************
+***********************************************************/
+
+/* start slider section */
+.home-slider-section {
+    margin-bottom: -30px;
+    width:100%;
+}
+
+.home-slider-section .home-slick-slider img{
+    width:100%;
+}
+.slick-dots {
+	bottom: 19px;
+	z-index: 99;
+}
+.slick-dots li button::before {
+	font-size: 43px !important;
+	color: #0c3e72;
+}
+.slick-dots li.slick-active button::before {
+	opacity: .75;
+	color:#0c3e72;
+}
+
+.slick-dots li {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	margin: 0 20px;
+}
+.slick-dots li button::before {
+	font-size: 0 !important;
+	background: #fff;
+	width: 50px;
+	height: 4px;
+	border-radius: 5px !important;
+}
+.slider-inner{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	left:0;
+	top:0;
+}
+.slider-text {
+	width: 100%;
+	/* height: 100%; */
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.slider-button {
+	margin-top: 22px;
+}
+.slider-button a {
+	display: inline-block;
+	padding: 9px 39px;
+	background: #0086CD !important;
+	font-size: 15px !important;
+	font-weight: 400;
+	color: #fff !important;
+	text-transform: uppercase;
+	border-radius: 0px;
+}
+
+.slider-text h2 {
+	font-size: 35px;
+	font-weight: 600;
+}
+.slider-text h5 {
+	font-size: 27px;
+	font-weight: 600;
+	margin-top: 8px !important;
+}
+/**********************************************************
+************** 	  END SLIDER SECTION CSS  *****************
+***********************************************************/
+
+
+/**********************************************************
+************** 	  START TOP PLACE SECTION CSS  ************
+***********************************************************/
+.single-top-place{
+	width:100%;
+	position: relative;
+	margin-bottom:27px;
+}
+
+.top-single-inner {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #0c3e72;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition:.5s all linear;
+}
+.single-top-place:hover .top-single-inner {
+	visibility: visible;
+	opacity: 0.8;
+}
+.inner-content {
+	position: absolute;
+	margin: 0 auto;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	padding: 50px;
+}
+.single-top-place img{
+	width:100%;
+}
+.single-top-place .top-single-inner .inner-content a {
+	display: inline-block;
+	background-color: #0086CD;
+	color: #fff;
+	padding: 10px 25px;
+}
+.single-top-place .top-single-inner .inner-content h4 {
+	margin-top: 20px !important;
+	margin-bottom: 3px !important;
+	color:#ffff;
+}
+.single-top-place .top-single-inner .inner-content p{
+	color:#fff;
+}
+/**********************************************************
+************** 	  	END TOP PLACE SECTION CSS  ************
+***********************************************************/
+
+
+/**********************************************************
+******************* START AIR TICKET CSS  *****************
+***********************************************************/
+.our-service-section {
+	background-color: #f3f3f3;
+	/* background-image: url(../images/background/bg-1.png); */
+}
+.single-service-item h4 {
+	margin-top: 25px !important;
+	margin-bottom: 15px !important;
+	font-size: 23px;
+	/* color: #333 !important; */
+}
+.single-service-item h4 a{
+	color:#333 !important;
+	display:inline-block;
+}
+.single-service-item .card {
+	margin-bottom: 27px;
+	border:none !important;
+}
+.single-service-item .card .card-body img{
+	width:100%;
+}
+.mt-70{
+	margin-top:70px;
+}
+
+.our-service-section .single-service-item .card .card-body .services-image {
+	position: relative;
+
+}
+.our-service-section .single-service-item .card .card-body .services-image .card-image-inner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #0C3E72B5;
+	transform: scale(0.7,0);
+	transition: .5s ease-in-out;
+}
+.single-service-item .card .card-body .services-image .card-image-inner a{
+	display: block;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
+.single-service-item .card .card-body .services-image .card-image-inner i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #333;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	transition:.5s;
+}
+.single-service-item .card .card-body .services-image .card-image-inner i:hover{
+	background-color:#fff;
+	color:#333;
+
+}
+.single-service-item .card:hover .card-body .services-image .card-image-inner{
+	transition: .5s ease-in-out;
+	transform: scale(1,1);
+}
+/**********************************************************
+******************* END AIR TICKET CSS  *******************
+***********************************************************/
+
+/**********************************************************
+*************** START INSPIRATION  CSS  *******************
+***********************************************************/
+.inspiration-expert-section {
+	/* background-color: #F7F7F7A6; */
+}
+.inspiration-area .card {
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.inspiration-area .card .card-body h4 {
+	margin-top: 16px !important;
+	margin-bottom: 15px !important;
+
+}
+.inspiration-area .card .card-body a {
+	color: #333;
+	margin-top: 26px !important;
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 19px;
+	padding: 4px 26px;
+	border: 1px solid #a0a0a042;
+}
+
+/**********************************************************
+***************** END INSPIRATION  CSS  *******************
+***********************************************************/
+
+/**********************************************************
+***************** START HAPPY CLIENT  CSS  ****************
+***********************************************************/
+
+/* start our team section */
+.our-team-section {
+	position: relative;
+	background-color:#F7F7F7;
+}
+.our-team-single-item {
+	margin-bottom:27px;
+}
+.our-team-single-item .card{
+	border:none !important;
+	border-radius: 0px !important;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
+}
+.our-team-single-item .card .card-body .team-social-link i {
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #0086CD;
+	color: #fff;
+	transition:.5s;
+}
+.our-team-single-item .card .card-body .team-social-link i:hover{
+	transform:rotate(360deg);
+}
+.team-social-link {
+	margin-top: 22px;
+}
+
+
+/* carousel */
+.our-team-section .owl-theme .owl-dots, .owl-theme .owl-nav {
+	text-align: center;
+	padding-left: 28px;
+}
+.our-team-section  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #0086CD;
+}
+.our-team-section  .owl-theme .owl-dots .owl-dot span {
+	width: 38px;
+	height: 5px;
+}
+
+/**********************************************************
+******************* END HAPPY CLIENT  CSS  ****************
+***********************************************************/
+
+
+/***********************************************************
+************* START FOOTER SECTTION CSS   ******************
+************************************************************/
+.footer-section {
+	background-color: #20212D;
+}
+.footer-logo-size {
+	width: 180px;
+	margin-bottom: 31px;
+}
+.footer-section .footer-top .part-link h3 {
+	color: #fff;
+	position: relative;
+	margin-bottom: 21px !important;
+	font-size: 22px;
+	padding-bottom: 15px !important;
+}
+.footer-section .footer-top .part-link h3::after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -5px;
+	height: 2px;
+	width: 40px;
+	background: #0086CD;
+}
+.footer-section .footer-top .part-about p{
+    color:#fff;
+}
+.footer-section .footer-top .part-link ul li {
+	line-height: 28px;
+}
+.footer-section .footer-top .part-link ul li a{
+	color:#fff !important;
+	position: relative;
+	
+}
+.footer-section .footer-top .part-link ul li a::after{
+	content:"";
+	position: absolute;
+	left:0;
+	top:100%;
+	width: 0;
+	height: 2px;
+	background:#fff;
+	transition:.5s;
+}
+.footer-section .footer-top .part-link ul li a:hover::after{
+	width:100%;
+}
+.footer-section .footer-bottom .part-copyright h3 {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #fff !important;
+}
+.footer-bottom p{
+    color:#fff !important;
+}
+
+.footer-section .footer-bottom .part-social h4 {
+	font-size: 20px;
+	color: #fff !important;
+	margin-bottom: 29px !important;
+}
+.footer-section .footer-bottom .part-social a {
+	width: 40px;
+	height: 40px;
+	color: #0086CD;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 14px;
+	-webkit-transition: .3s ease-in;
+	-o-transition: .3s ease-in;
+	transition: .3s ease-in;
+}
+.footer-section .footer-bottom .part-social a:hover {
+	background-color: #0086CD;
+	color: #fff;
+}
+.footer-section .footer-bottom .part-social a:last-child {
+	margin-right: 0;
+}
+/***********************************************************
+*************   END FOOTER SECTTION CSS   ******************
+************************************************************/
+

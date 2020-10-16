@@ -75,8 +75,8 @@ h3 {
     
 }
 h4{
-	font-weight: 400;
-	font-size: 22px;
+	font-weight: 500;
+	font-size: 18px;
 }
 h5 {
 	
@@ -142,7 +142,7 @@ select:focus{
 select{
     font-size:14px !important;
 }
- select option{
+select option{
     color:#2C2D3F !important;
     margin-bottom: 10px !important;
     font-size:14px;
@@ -150,6 +150,9 @@ select{
 }
 .section-padding{
 	padding: 80px 0;
+}
+.section-title h2{
+	text-transform: capitalize;
 }
 /**********************************************************
 **************      END GLOBAL SECTION CSS    *************
@@ -165,7 +168,7 @@ select{
 
 .top-header-section {
 	padding: 1px 0px;
-	background-color: #0086cd;
+	background-color: #0054A6;
 	/* text-align: #fff !important; */
 }
 .top-header-section .header-contact i {
@@ -228,21 +231,23 @@ select{
 .navbar .nav-item a.nav-link {
 	color: #333 !important;
 	font-family: 'Roboto';
-	font-weight: 400;
 	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
 }
-.navbar .nav-item: a.nav-link{
-	margin-left:0px;
-}
+
 /* mega menu */
 .mega-area{
 	position: static;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-	border: none !important;
+	border: 1px solid !important;
 	border-radius: 0px !important;
 	top: 90px;
-	background:#F1F1F1 !important;
+	background: #fff !important;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+	border-color: rgba(232,232,232,1) !important;
 }
 .mega-menu {
 	position: absolute;
@@ -261,22 +266,23 @@ select{
 	padding:0 12px;
 	position: relative;
 }
-.mega-one::after {
-	content: "";
-	position: absolute;
-	width: 1px;
-	height: 180px;
-	background-color: #33333329;
-	right: -15px;
-	top: 0px;
+.dropdown-item i{
+	font-size:14px;
+	margin-right:4px;
 }
 .mega-one h5 {
 	border-bottom: 1px solid #3336;
 	margin-bottom: 10px !important;
 	padding-bottom: 8px !important;
 	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
 }
-
+.mega-menu .dropdown-item {
+	/* padding: 5px 0; */
+	font-size: 15px;
+	font-weight: 300;
+}
 .section-title p{
 	margin-top:20px !important;
 }
@@ -346,23 +352,28 @@ select{
 }
 .slider-button a {
 	display: inline-block;
-	padding: 9px 39px;
-	background: #0086CD !important;
-	font-size: 15px !important;
+	padding: 13px 39px;
+	background: #0054A6 !important;
+	font-size: 14px !important;
 	font-weight: 400;
 	color: #fff !important;
 	text-transform: uppercase;
 	border-radius: 0px;
+	letter-spacing: .5px;
 }
-
 .slider-text h2 {
-	font-size: 35px;
-	font-weight: 600;
+	font-size: 43px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: 2px;
 }
-.slider-text h5 {
-	font-size: 27px;
-	font-weight: 600;
-	margin-top: 8px !important;
+.slider-text p {
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: 20px !important;
+	line-height: 25px;
+	padding-bottom: 10px !important;
 }
 /**********************************************************
 ************** 	  END SLIDER SECTION CSS  *****************
@@ -377,46 +388,71 @@ select{
 	position: relative;
 	margin-bottom:27px;
 }
-
-.top-single-inner {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	top: 0;
-	background-color: #0c3e72;
-	height: 100%;
-	visibility: hidden;
-	opacity: 0;
-	transition:.5s all linear;
-}
-.single-top-place:hover .top-single-inner {
-	visibility: visible;
-	opacity: 0.8;
-}
-.inner-content {
-	position: absolute;
-	margin: 0 auto;
-	bottom: 0px;
-	left: 0;
-	width: 100%;
-	padding: 50px;
-}
 .single-top-place img{
 	width:100%;
 }
-.single-top-place .top-single-inner .inner-content a {
+.single-top-place .top-single-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #0054A6C2;
+	transform:scale(0.7,0);
+	transition:.5s ease-in-out;
+}
+.single-top-place:hover .top-single-inner{
+	transform: scale(1,1);
+	transition:.5s ease-in-out;
+}
+.inner-content {
+	color: #fff !important;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+}
+.inner-content i {
+	margin-right: 5px;
+	font-size: 16px;
+}
+.inner-content a.place-button {
 	display: inline-block;
-	background-color: #0086CD;
-	color: #fff;
-	padding: 10px 25px;
+	padding: 7px 26px;
+	background: #fff !important;
+	font-size: 14px !important;
+	font-weight: 500;
+	color: #333 !important;
+	text-transform: uppercase;
+	border-radius: 0px;
+	letter-spacing: .6px;
+	margin-bottom: 7px;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
 }
-.single-top-place .top-single-inner .inner-content h4 {
-	margin-top: 20px !important;
-	margin-bottom: 3px !important;
-	color:#ffff;
+.inner-content a.place-button:hover{
+	color:#fff !important;
+	-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
 }
-.single-top-place .top-single-inner .inner-content p{
-	color:#fff;
+.inner-content h4 {
+	margin-top: 10px !important;
+}
+.inner-content p {
+	line-height: 20px;
+	margin-bottom: 15px !important;
+	margin-top: 8px !important;
+}
+.inner-content ul li:first-child{
+	float:left;
+}
+.inner-content ul li:last-child{
+	float:right;
+	font-weight: 600;
+}
+.inner-content ul li  i{
+	font-size:14px;
+	color:goldenrod;
 }
 /**********************************************************
 ************** 	  	END TOP PLACE SECTION CSS  ************
@@ -428,13 +464,15 @@ select{
 ***********************************************************/
 .our-service-section {
 	background-color: #f3f3f3;
-	/* background-image: url(../images/background/bg-1.png); */
+	/* background-image: url(../images/background/yghjy-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed; */
 }
 .single-service-item h4 {
 	margin-top: 25px !important;
 	margin-bottom: 15px !important;
-	font-size: 23px;
-	/* color: #333 !important; */
 }
 .single-service-item h4 a{
 	color:#333 !important;
@@ -442,7 +480,9 @@ select{
 }
 .single-service-item .card {
 	margin-bottom: 27px;
-	border:none !important;
+	border: none !important;
+	border-radius: 0px !important;
+	/* background: #F1F8FF; */
 }
 .single-service-item .card .card-body img{
 	width:100%;
@@ -461,7 +501,7 @@ select{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #0C3E72B5;
+	background-color: #0054A6C2;
 	transform: scale(0.7,0);
 	transition: .5s ease-in-out;
 }
@@ -502,12 +542,13 @@ select{
 	/* background-color: #F7F7F7A6; */
 }
 .inspiration-area .card {
-	border: 1px solid rgba(0, 0, 0, 0.05);
+	border: 1px solid transparent;
+	background: #F1F8FF;
+	border-radius: 0px !important;
 }
 .inspiration-area .card .card-body h4 {
-	margin-top: 16px !important;
-	margin-bottom: 15px !important;
-
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
 }
 .inspiration-area .card .card-body a {
 	color: #333;
@@ -517,6 +558,7 @@ select{
 	margin-bottom: 19px;
 	padding: 4px 26px;
 	border: 1px solid #a0a0a042;
+	background-color: transparent;
 }
 
 /**********************************************************
@@ -531,9 +573,17 @@ select{
 .our-team-section {
 	position: relative;
 	background-color:#F7F7F7;
+	background-image: url(../images/background/1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 .our-team-single-item {
 	margin-bottom:27px;
+}
+.our-team-single-item .card .card-body{
+	background-color:#F1F8FF;
 }
 .our-team-single-item .card{
 	border:none !important;
@@ -564,15 +614,29 @@ select{
 	padding-left: 28px;
 }
 .our-team-section  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-	background: #0086CD;
+	background: #FFFFFF;
 }
-.our-team-section  .owl-theme .owl-dots .owl-dot span {
-	width: 38px;
-	height: 5px;
+.our-team-section .owl-theme .owl-dots .owl-dot span {
+	width: 40px;
+	height: 4px;
 }
+
 
 /**********************************************************
 ******************* END HAPPY CLIENT  CSS  ****************
+***********************************************************/
+
+/**********************************************************
+**************** START BEST FLIGHT RATE  CSS  *************
+***********************************************************/
+.best-flight-rates-section .partner-logo .card {
+	border-radius: 0px !important;
+	border: 1px solid #8BA1B7;
+	padding: 5px;
+}
+
+/**********************************************************
+**************** END BEST FLIGHT RATE  CSS ****************
 ***********************************************************/
 
 

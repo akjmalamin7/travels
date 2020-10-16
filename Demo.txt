@@ -4,6 +4,8 @@ demo 3: http://www.nicdarkthemes.com/themes/travel/wp/demo/travel/
 demo 4: http://preview.themeforest.net/item/emigrar-creative-travel-agency-html-template/full_screen_preview/24945507?_ga=2.202134609.1798297219.1601037313-599859282.1585453585
 demo 5: http://pixner.net/emigrar/emigrar/index.html
 
+http://preview.themeforest.net/item/laveria-tour-travel-agency-template/full_screen_preview/28913025?_ga=2.118806217.1532764845.1602825815-599859282.1585453585
+https://preview.themeforest.net/item/travel-time-tour-hotel-vacation-travel-wordpress-theme/full_screen_preview/16896149?_ga=2.105674819.1798297219.1601037313-599859282.1585453585
 
 
 background-color: #FAFBFE;

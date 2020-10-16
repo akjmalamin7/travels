@@ -30,8 +30,8 @@ jQuery(document).ready(function(){
                 loop:true,
                 // margin:10,
                 nav:false,
-                // autoplay:true,
-                autoplayTimeout:10000,
+                autoplay:true,
+                autoplayTimeout:5000,
                 dots:true,
                 slideTransition:'linear',
                 slideBy:1,
@@ -50,6 +50,34 @@ jQuery(document).ready(function(){
                 }
             
             });
+
+                // partner logo
+                jQuery('.partner-logo').owlCarousel({
+                    items:6,
+                    loop:true,
+                    // margin:10,
+                    nav:false,
+                    autoplay:true,
+                    autoplayTimeout:7000,
+                    dots:false,
+                    smartSpeed:750,
+                    autoplayHoverPause:true,
+                    slideBy:3,
+                    // navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        576:{
+                            items:2
+                        },
+                        992:{
+                            items:6
+                        }
+
+                    }
+                
+                });
    
 
 });

@@ -88,8 +88,7 @@ input, textarea, select {
 	outline: 0 none !important;
 	border-radius: 0 !important;
 	background: transparent !important;
-    border: 1px solid #B3BAC1 !important;
-    
+	border: 1px solid #fbfbfb59 !important;
 }
 input[type="submit"]{
     border: 1px solid transparent !important;
@@ -137,13 +136,14 @@ select:focus{
     outline: 0 none !important;
     -webkit-box-shadow: unset !important;
             box-shadow: unset !important;
-    border: 1px solid #0258A8 !important;
+    border: 1px solid #fff !important;
 }
 select{
-    font-size:14px !important;
+	font-size:14px !important;
+	color:#fff;
 }
 select option{
-    color:#2C2D3F !important;
+    color:#fff !important;
     margin-bottom: 10px !important;
     font-size:14px;
     font-family: 'Roboto';
@@ -377,6 +377,58 @@ select option{
 
 /***************************************************************************************************
 *************************************** END SLIDER SECTION CSS   ***********************************
+****************************************************************************************************/
+
+/***************************************************************************************************
+***************************************START DESTINATION SECTION CSS   *****************************
+****************************************************************************************************/
+.destination-form-section {
+	position: absolute;
+	width: 100%;
+	/* height: 100%; */
+	left: 0;
+	top: 185px;
+}
+.destination-form-section h2 {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 57px;
+	letter-spacing: 2px;
+	margin-top: 110px !important;
+}
+.destination-form-section p {
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: 20px !important;
+	line-height: 25px;
+	padding-bottom: 10px !important;
+}
+.destination-form-section .card {
+	border-radius: 10px !important;
+	border: none !important;
+	background-color: #0054A6E8 !important;
+	color: #fff !important;
+}
+.destination-form-section .card .custom-select{
+	color:#fff;
+}
+.submit-button {
+
+	color: #fff !important;
+	margin-top: 9px;
+}
+input.submit-button{
+	border:1px solid #fbfbfb59 !important;
+}
+.form-control.submit-button:focus{
+	color: #fff;
+}
+.destination-form-section select, .destination-form-section input {
+	border-radius: 4px !important;
+}
+/***************************************************************************************************
+***************************************END DESTINATION SECTION CSS   *******************************
 ****************************************************************************************************/
 
 /***************************************************************************************************
@@ -645,36 +697,44 @@ transition-timing-function: ease-out;
 ****************************************************************************************************/
 .caller-row {
 	position: fixed;
-	left: 50px;
+	left: 20px;
 	bottom: 55px;
 }
 .call-item {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	position: relative;
 }
 
 .call-circle {
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 	border-radius: 50%;
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
 	display: inline-block;
 	position: relative;
 	z-index: 999;
-	
+	margin-bottom: 27px;
 }
-.call-circle img{
+.call-circle i{
+	background-color:#fff;
+	width:30px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+/* .call-circle img{
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-}
+} */
 .call-circle::after{
 	content:"";
 	position: absolute;
 	width:100%;
 	height:100%;
-	background:#DBA423;
+	background:#0054A6;
 	border-radius: 50%;
 	left:0;
 	top:0;
@@ -683,7 +743,7 @@ transition-timing-function: ease-out;
 
 }
 
-.call-number {
+/* .call-number {
 	width:183px;
 	position: absolute;
 	left: 0px;
@@ -694,12 +754,12 @@ transition-timing-function: ease-out;
 	box-shadow: 0px 0px 15px 0px rgba(255, 195, 55, 0.37);
 	visibility: hidden;
 	
-}
-.call-item:hover .call-number{
+} */
+/* .call-item:hover .call-number{
 	transition:1s;
 	visibility: visible;
 	left: 27px;
-}
+} */
 
 .call-number a {
 	display: inline-block;

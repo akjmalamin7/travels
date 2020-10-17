@@ -600,7 +600,7 @@ transition-timing-function: ease-out;
 	border-radius: 0px !important;
 }
 .inspiration-area .card .card-body h4 {
-	margin-top: 20px !important;
+	margin-top: 13px !important;
 	margin-bottom: 20px !important;
 }
 .inspiration-area .card .card-body a {
@@ -609,9 +609,12 @@ transition-timing-function: ease-out;
 	display: inline-block;
 	font-size: 16px;
 	margin-bottom: 19px;
-	padding: 4px 26px;
+	padding: 8px 26px;
 	border: 1px solid #a0a0a042;
 	background-color: transparent;
+}
+.inspiration-area .card .card-body a:hover{
+	color:#fff !important;
 }
 
 /***************************************************************************************************

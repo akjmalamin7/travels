@@ -53,7 +53,7 @@ jQuery(document).ready(function(){
 
                 // partner logo
                 jQuery('.partner-logo').owlCarousel({
-                    items:6,
+                    items:7,
                     loop:true,
                     // margin:10,
                     nav:false,
@@ -72,7 +72,7 @@ jQuery(document).ready(function(){
                             items:2
                         },
                         992:{
-                            items:6
+                            items:8
                         }
 
                     }

@@ -24,6 +24,20 @@ jQuery(document).ready(function(){
             autoplaySpeed: 5000
         });
 
+         // hot slider
+         jQuery('.add-hot-slider-area').owlCarousel({
+            items:2,
+            loop:true,
+            autoplay:true,
+            nav:true,
+            navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+            margin:10,
+            autoplayTimeout:7000,
+            smartSpeed:750,
+            slideBy:1
+          
+
+        });
               // our team
               jQuery('.our-team ').owlCarousel({
                 items:1,
@@ -66,10 +80,10 @@ jQuery(document).ready(function(){
                     // navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
                     responsive:{
                         0:{
-                            items:1
+                            items:2
                         },
                         576:{
-                            items:2
+                            items:3
                         },
                         992:{
                             items:8
@@ -78,6 +92,8 @@ jQuery(document).ready(function(){
                     }
                 
                 });
+
+               
    
 
 });

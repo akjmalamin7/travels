@@ -43,7 +43,8 @@ body{
     font-weight: 400;
     width:100%;
     position: relative;
-    font-family: 'Roboto';
+	font-family: 'Roboto';
+	overflow-x: hidden;
 
 }
 

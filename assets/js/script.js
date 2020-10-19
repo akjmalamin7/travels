@@ -95,5 +95,21 @@ jQuery(document).ready(function(){
 
                
    
+    //mixitup
+    var mixer = mixitup('.latest-product');
+    var mixer = mixitup(containerEl);
+    var mixer = mixitup(containerEl, {
+        selectors: {
+            target: '.blog-item'
+        },
+        animation: {
+            duration: 300
+        }
+    });
+    //Counter up
+    jQuery('.countUp').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
 });

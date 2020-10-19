@@ -360,6 +360,7 @@ select option{
 	text-transform: uppercase;
 	border-radius: 0px;
 	letter-spacing: .5px;
+	border-radius: .25rem;
 }
 .slider-text h2 {
 	font-size: 43px;
@@ -378,6 +379,42 @@ select option{
 
 /***************************************************************************************************
 *************************************** END SLIDER SECTION CSS   ***********************************
+****************************************************************************************************/
+
+/***************************************************************************************************
+*************************************** START ADD DEALS SECTION CSS   ******************************
+****************************************************************************************************/
+
+/* latest product menu */
+.letest-product-menu ul li {
+	display: inline-block;
+	font-size: 14px !important;
+	color: #fff !important;
+	margin: 0 9px;
+	background: #0054A6;
+	padding: 5px 14px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 400 !important;
+	letter-spacing: 0.2px;
+	border-radius: .25rem;
+}
+/* latest product */
+.sinlge-product {
+	margin-bottom: 28px;
+}
+.sinlge-product .card {
+	overflow: hidden;
+	border: 1px solid #0054A61F;
+}
+.sinlge-product .card a{
+	color: #0054A6;
+}
+.sinlge-product .card p{
+	margin-top:8px !important;
+}
+/***************************************************************************************************
+*************************************** END ADD DEALS SECTION CSS   ********************************
 ****************************************************************************************************/
 
 /***************************************************************************************************
@@ -534,7 +571,6 @@ transition-timing-function: ease-out;
 .single-service-item .card {
 	margin-bottom: 27px;
 	border: none !important;
-	border-radius: 0px !important;
 	/* background: #F1F8FF; */
 }
 .single-service-item .card .card-body img{
@@ -687,8 +723,7 @@ transition-timing-function: ease-out;
 ********************************** START BEST FLIGHT RATE  CSS  ************************************
 ****************************************************************************************************/
 .best-flight-rates-section .partner-logo .card {
-	border-radius: 0px !important;
-	border: 1px solid #6666665c;
+	border: 1px solid #0054A61F;
 	padding: 5px;
 }
 

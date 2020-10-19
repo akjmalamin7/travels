@@ -633,7 +633,7 @@ transition-timing-function: ease-out;
 }
 .inspiration-area .card {
 	border: 1px solid transparent;
-	background: #F1F8FF;
+	background-color: #f3f3f3;
 	border-radius: 0px !important;
 }
 .inspiration-area .card .card-body h4 {

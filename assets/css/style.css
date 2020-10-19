@@ -233,7 +233,7 @@ select option{
 	font-family: 'Roboto';
 	margin-left: 20px;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 500;
 }
 .navbar .container{
@@ -303,18 +303,22 @@ select option{
 
 /* start slider section */
 .home-slider-section {
-	margin-bottom: -30px;
+	/* margin-bottom: -30px; */
 	width: 100%;
 	position: relative;
+	height: 660px;
+	object-fit: cover;
 }
 
 .home-slider-section .home-slick-slider img{
-    width:100%;
+	width:100%;
+	height:660px;
+	object-fit: cover;
 }
 .slick-dots {
 	bottom: 19px;
 	z-index: 99;
-	display: none !important;
+	/* display: none !important; */
 }
 .slick-dots li button::before {
 	font-size: 43px !important;
@@ -414,8 +418,8 @@ select option{
 	overflow: hidden;
 	border: 1px solid #0054A61F;
 }
-.sinlge-product .card a{
-	color: #0054A6;
+.sinlge-product .card a {
+	color: #333;
 }
 .sinlge-product .card p{
 	margin-top:8px !important;
@@ -428,15 +432,14 @@ select option{
 ***************************************START DESTINATION SECTION CSS   *****************************
 ****************************************************************************************************/
 .destination-form-section {
-	position: absolute;
 	width: 100%;
-	/* height: 100%; */
-	left: 0;
-	/* transform: translateY(-50%); */
-	bottom: 0px;
+	background-color:#0054A6;
+
 }
-.mb-180{
-	margin-bottom:180px;
+.destination-form-section input[type="submit"] {
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 31px;
 }
 .destination-form-section h2 {
 	font-size: 40px;
@@ -444,7 +447,7 @@ select option{
 	text-transform: uppercase;
 	line-height: 57px;
 	letter-spacing: 2px;
-	margin-top: 110px !important;
+	/* margin-top: 110px !important; */
 }
 .destination-form-section p {
 	font-size: 17px;

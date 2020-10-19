@@ -1,3 +1,54 @@
+
+@media(max-width:1199px){
+    .logo-size {
+        width: 250px;
+        height: 50px;
+    }
+    .letest-product-menu ul li {
+        font-size: 12px !important;
+        margin: 0 7px;
+        padding: 4px 13px;
+    }
+    .latest-product .sinlge-product a h4{
+        margin-bottom: 15px !important;
+        margin-top: 25px !important;
+    }
+    .inner-content {
+        bottom: 10px;
+    }
+    .inspiration-area .card .card-body h4 {
+        margin-top: 0px !important;
+        margin-bottom: 4px !important;
+    }
+    .inspiration-area .card .card-body p{
+        font-size: 14px;
+    }
+    .inspiration-area .card .card-body {
+       padding:1rem;
+    }
+    .inspiration-area .card .card-body a {
+        margin-top: 15px !important;
+        font-size: 15px;
+        margin-bottom: 0px;
+        padding: 6px 17px;
+    }
+}
+@media(min-width:992px){
+        /* .slider-text h2 {
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 36px;
+            letter-spacing: 2px;
+        } */
+        .home-slider-section {
+            height: 600px;
+        }
+        
+        .home-slider-section .home-slick-slider img{
+            height:600px;
+        }
+}
 @media(max-width:991px){
     .navbar {
         z-index: 9999 !important;
@@ -23,6 +74,57 @@
         color: #0054A6;
         border-color: #0054A64F;
     }
+    .slider-text h2 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .slider-text p {
+        font-size: 17px;
+        margin-top: 20px !important;
+        line-height: 25px;
+        padding-bottom: 10px !important;
+    }
+    .slider-button a {
+        padding: 10px 26px;
+        font-size: 13px !important;
+    }
+    .home-slider-section {
+        height: 550px;
+    }
+    
+    .home-slider-section .home-slick-slider img{
+        height:550px;
+    }
+    .inner-content {
+        bottom: 28px;
+    }
+    .section-title h2{
+        font-size:30px;
+    }
+    .section-title p{
+        font-size:14px;
+    }
+    .inspiration-area .card {
+        width: 50%;
+        flex: auto;
+    }
+    .inspiration-area .card .card-body {
+        padding: 1.25rem;
+    }
+    .inspiration-area .card .card-body h4 {
+        margin-top: 30px !important;
+        margin-bottom: 20px !important;
+    }
+    .inspiration-area .card .card-body p {
+        font-size: 14px;
+        margin-bottom: 55px !important;
+    }
+    .inspiration-area .card .card-body a {
+        margin-top: 15px !important;
+        font-size: 15px;
+        margin-bottom: 42px;
+        padding: 10px 27px;
+    }
 }
 @media(max-width:767px){
     .top-header-section .header-contact a span {
@@ -47,13 +149,142 @@
         width: 257px;
         height: 38px;
     }
-    /* #myNav {
-        top: 78px;
-    } */
+    #myNav {
+        position: absolute;
+        top: 75px;
+    }
     .logo-size {
         width: 200px;
         height: 38px;
         margin-top: -3px;
+    }
+    .slider-text h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .slider-text p {
+        font-size: 15px;
+        margin-top: 10px !important;
+        line-height: 23px;
+        padding-bottom: 4px !important;
+    }
+    .slick-dots {
+        display: none !important;
+    }
+    .slider-button a {
+        padding: 7px 17px;
+        font-size: 13px !important;
+    }
+    .home-slider-section {
+        height: 500px;
+    }
+    
+    .home-slider-section .home-slick-slider img{
+        height:500px;
+    }
+    .letest-product-menu ul li {
+        margin-bottom: 27px;
+    }
+    .inner-content {
+        bottom: 10px;
+    }
+    .inner-content h4{
+        font-size: 15px;
+    }
+    .inner-content p {
+        margin-bottom: 0px !important;
+        margin-top: 8px !important;
+        font-size: 14px;
+    }
+    .inner-content ul li i {
+        font-size: 11px;
+    }
+    .inner-content a.place-button {
+        padding: 2px 23px;
+        font-size: 11px !important;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .inspiration-area .card .card-body p {
+        font-size: 14px;
+        margin-bottom: 4px !important;
+    }
+    .inspiration-area .card .card-body h4 {
+        margin-top: 6px !important;
+        margin-bottom: 10px !important;
+    }
+    .inspiration-area .card .card-body a {
+        margin-top: 4px !important;
+        font-size: 14px;
+        margin-bottom: 30px;
+        padding: 8px 22px;
+    }
+}
+@media(max-width:575px){
+    .slider-text h2 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .slider-text p {
+        font-size: 15px;
+        margin-top: 16px !important;
+        line-height: 18px;
+        padding-bottom: 5px !important;
+    }
+    .home-slider-section {
+        height:400px;
+    }
+    
+    .home-slider-section .home-slick-slider img{
+        height:400px;
+    }
+    .inner-content {
+        bottom: 50px;
+    }
+    .inner-content a.place-button {
+        padding: 7px 28px;
+        font-size: 11px !important;
+        margin-bottom: 12px;
+        letter-spacing: .6px;
+    }
+    .inner-content h4 {
+        font-size: 19px;
+        margin-top: 20px !important;
+        margin-bottom: 14px !important;
+    }
+    .inner-content p {
+        margin-bottom: 15px !important;
+        font-size: 15px;
+    }
+    .inspiration-area .card {
+        width: 100%;
+        flex: auto;
+    }
+    .d-f-xml{
+        display: flex;
+    }
+    .d-order-xml{
+       order:1;
+    }
+    .inspiration-area .card {
+        margin-bottom: 27px !important;
+    }
+}
+@media(max-width:414px){
+    .inner-content {
+        bottom: 15px;
+    }
+    .inner-content h4 {
+        font-size: 18px;
+        margin-top: 1px !important;
+        margin-bottom: 6px !important;
+    }
+    .master-card-width img{
+        width:300px
     }
 }
 @media(max-width:380px){

@@ -29,12 +29,22 @@ jQuery(document).ready(function(){
             items:2,
             loop:true,
             autoplay:true,
-            nav:true,
+            nav:false,
             navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
             margin:10,
+            dots:false,
             autoplayTimeout:7000,
             smartSpeed:750,
-            slideBy:1
+            slideBy:1,
+            responsive:{
+                0:{
+                    items:1
+                },
+                992:{
+                    items:2
+                }
+
+            }
           
 
         });
@@ -80,10 +90,16 @@ jQuery(document).ready(function(){
                     // navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
                     responsive:{
                         0:{
-                            items:2
+                            items:3
+                        },
+                        400:{
+                            items:4
                         },
                         576:{
-                            items:3
+                            items:5
+                        },
+                        767:{
+                            items:6
                         },
                         992:{
                             items:8

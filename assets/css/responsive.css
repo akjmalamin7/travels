@@ -125,6 +125,9 @@
         margin-bottom: 42px;
         padding: 10px 27px;
     }
+    .about-section .about-left {
+        margin-bottom: 60px;
+    }
 }
 @media(max-width:767px){
     .top-header-section .header-contact a span {

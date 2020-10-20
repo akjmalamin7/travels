@@ -73,7 +73,7 @@ h2{
 }
 
 h3 {
-    
+	font-size:27px;
 }
 h4{
 	font-weight: 500;
@@ -87,7 +87,6 @@ h6{
 }
 input, textarea, select {
 	outline: 0 none !important;
-	border-radius: 0 !important;
 	background: transparent !important;
 	border: 1px solid #fbfbfb59 !important;
 }
@@ -119,19 +118,19 @@ input[type="button"]:focus, input[type="submit"]:focus, button:focus{
     border: 0px solid transparent !important;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-	font-size: 14px;
+	font-size: 13px;
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
-	font-size: 14px;
+	font-size: 13px;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 	font-size: 14px;
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-	font-size: 14px;
+	font-size: 13px;
 }
 input::placeholder, textarea::placeholder {
-	font-size: 14px;
+	font-size: 13px;
 }
 select:focus{
     outline: 0 none !important;
@@ -269,21 +268,22 @@ select option{
 	padding:0 12px;
 	position: relative;
 }
-.dropdown-item i{
-	font-size:14px;
-	margin-right:4px;
+.dropdown-item i {
+	font-size: 11px;
+	margin-right: 6px;
 }
 .mega-one h5 {
 	border-bottom: 1px solid #3336;
-	margin-bottom: 10px !important;
-	padding-bottom: 8px !important;
+	margin-bottom: 15px !important;
+	padding-bottom: 10px !important;
 	text-align: center;
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 .mega-menu .dropdown-item {
-	/* padding: 5px 0; */
-	font-size: 15px;
+	/* padding: 7px 9px; */
+	font-size: 14px;
 	font-weight: 300;
 }
 .section-title p{
@@ -644,6 +644,7 @@ transition-timing-function: ease-out;
 ****************************************************************************************************/
 .inspiration-expert-section {
 	/* background-color: #F7F7F7A6; */
+	
 }
 .inspiration-area .card {
 	border: 1px solid transparent;
@@ -679,12 +680,12 @@ transition-timing-function: ease-out;
 /* start our team section */
 .our-team-section {
 	position: relative;
-	background-color:#F7F7F7;
-	background-image: url(../images/background/1.jpg);
-	background-repeat: no-repeat;
-	background-size:cover;
-	background-position: center;
-	background-attachment: fixed;
+	background-color: #F8FAFF;
+	/* background-image: url(../images/background/1.jpg); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	/* background-position: center; */
+	/* background-attachment: fixed; */
 }
 .our-team-single-item {
 	margin-bottom:27px;
@@ -838,6 +839,259 @@ transition-timing-function: ease-out;
 /***************************************************************************************************
 ********************************** END FIXED CALL ITEM CSS  ****************************************
 ****************************************************************************************************/
+
+
+/***************************************************************************************************
+*************************************** START CONTACT PAGE CSS *************************************
+****************************************************************************************************/
+/* contact top section */
+.contact-top-section {
+	background-color: #F1F3F6;
+}
+.contact-top .single-contact .card {
+	margin-bottom: 27px;
+	min-height: 150px;
+	border: 1px solid #0054A61F;
+}
+.contact-top .single-contact .card .card-body ul li {
+	font-size: 14px;
+}
+.contact-top .single-contact .card .card-body ul li i{
+	font-size: 30px;
+	color: #0054A6;
+}
+/* contact left */
+.contact-section{
+	background-image: url(../images/bg-image/contact-form-banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.contact-section .form-control {
+	border: 1px solid #0054A66E !important;
+}
+.contact-section .contact-left {
+	margin-bottom: 50px;
+}
+.contact-right-title h3, .contact-section .contact-left .contact-title h3 {
+	margin-bottom: 26px !important;
+	position: relative;
+	border-bottom: 1px solid #0054A6;
+	padding-bottom: 11px !important;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.contact-right-title h3::after, .contact-section .contact-left .contact-title h3::after {
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 3px;
+	background-color: #0054A6;
+	bottom: -2px;
+	left: 0;
+}
+.contact-section .contact-left .contact-left-subheading h2 {
+	font-size: 24px;
+	font-weight: 500;
+}
+.contact-section .contact-left .contact-left-subheading p {
+	margin-top: 7px !important;
+	margin-bottom: 30px !important;
+}
+.contact-left-content .card {
+	border: none !important;
+	background-color: #F4F5F8;
+	border-left: 4px solid #0054A6 !important;
+	border-radius: 0px !important;
+}
+/* contact right */
+.contact-section .contact-right {
+	padding: 56px 50px 39px 50px;
+	background: #fff;
+	border: 1px solid #0054A61F;
+	border-radius: .25rem;
+}
+.contact-right-title {
+	margin-bottom: 31px !important;
+}
+.submit-button-bg {
+	background-color: #0054A6 !important;
+	color: #fff;
+	border: none !important;
+	font-size: 14px !important;
+}
+.submit-button-bg:focus{
+	background-color: #0054A6;
+	color:#fff;
+	border:none !important
+
+}
+/* .contact-left-subheading {
+	margin-bottom: 28px !important;
+} */
+
+/* branch */
+
+
+.maps-area iframe {
+	border: none !important;
+	width: 100%;
+	height: 300px;
+	margin-bottom: -7px;
+}
+/***************************************************************************************************
+*************************************** END CONTACT PAGE CSS ***************************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+****************************************** START ABOUT PAGE CSS ************************************
+****************************************************************************************************/
+/* about left */
+.about-section {
+	background-color: #F8FAFF;
+}
+.about-section .about-left{
+	position: relative;
+}
+.about-section .about-left::after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 7px;
+	top: 8px;
+	border-right: 8px solid #0054A6;
+	border-bottom: 8px solid #0054A6;
+}
+/* about right */
+.about-section .about-right {
+	padding-left: 20px;
+}
+
+.mission-right .about-title h3, .about-section .about-right .about-title h3 {
+	margin-bottom: 25px !important;
+	position: relative;
+	border-bottom: 1px solid #0054A6;
+	padding-bottom: 14px !important;
+	text-transform: capitalize;
+}
+.mission-right .about-title h3 span, .about-section .about-right .about-title h3 span{
+	color:#0054A6;
+}
+.mission-right .about-title h3:after, .about-section .about-right .about-title h3::after {
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 3px;
+	background: #0054A6;
+	bottom: -2px;
+	left: 0;
+}
+
+.mission-right p, .about-section .about-right .about-content p {
+	/* border-bottom: 1px dashed #0054A6; */
+	/* margin-top: 30px !important; */
+	/* margin-bottom: 16px !important; */
+	padding-bottom: 8px !important;
+}
+.about-section .about-right .about-button a {
+	display: inline-block;
+	padding: 8px 36px;
+	background: #0054A6 !important;
+	font-size: 13px !important;
+	font-weight: 500;
+	color: #fff !important;
+	text-transform: uppercase;
+	letter-spacing: .6px;
+	margin-top: 20px;
+}
+
+/* our mission css */
+.our-mission-section {
+	background-image: url(../images/about-us/image-10.jpg);
+	height: 360px !important;
+	overflow: hidden;
+}
+.our-mission-section .mission-left{}
+.our-mission-section .mission-left img {
+	width: 257px !important;
+}
+/* our mission css */
+
+
+
+/* our team */
+.single-team{
+	margin-bottom:27px;
+}
+.single-team .card{
+	border:none;
+	border-radius: 0px;
+}
+.single-team .card .team-info {
+	padding: 15px;
+	position: absolute;
+	background-color: #fff;
+	right: -1px;
+	bottom: -69px;
+	transition:.3s ease-in-out;
+}
+.single-team .card:hover .team-info {
+	bottom: -1px;
+	background-color:#029BDE;
+	color:#fff;
+}
+.single-team .card:hover .team-info h4 {
+	margin-bottom: -2px !important;
+	transition:.3s ease-in-out;
+	color:#fff;
+
+}
+
+.single-team {
+	overflow: hidden;
+}
+.single-team .card .team-info h4 {
+	margin-top: 5px !important;
+	margin-bottom: 15px !important;
+	color: #333;
+	transition:.5s linear;
+	position: relative;
+}
+.single-team .card:hover .team-info h4::after{
+	height: 0px;
+}
+.single-team .card .team-info h4::after {
+	content: "";
+	position: absolute;
+	width: 100% !important;
+	height: 2px;
+	background-color: #0054A61F;
+	top: 37px;
+	display: block;
+	left: 0;
+}
+.single-team .card .card-inner img{
+	width:100%;
+}
+.single-team .card .team-info p {
+	font-size: 13px;
+	margin-bottom: 7px !important;
+}
+.single-team .card .team-info a {
+	color: #333 !important;
+	font-size: 14px;
+	font-weight: 400;
+}
+.single-team .card:hover .team-info a{
+	color:#fff !important;
+}
+/* our team */
+/***************************************************************************************************
+****************************************** END ABOUT PAGE CSS **************************************
+****************************************************************************************************/
+
 
 /***************************************************************************************************
 ********************************* START FOOTER SECTTION CSS   **************************************

@@ -1092,6 +1092,96 @@ transition-timing-function: ease-out;
 ****************************************** END ABOUT PAGE CSS **************************************
 ****************************************************************************************************/
 
+/***************************************************************************************************
+****************************************** START BLOG PAGE CSS *************************************
+****************************************************************************************************/
+.blog-section{}
+.blog-section .blog-post-area{}
+.blog-section .blog-post-area .post-item {
+	border: 1px solid #0054A61F;
+	margin-bottom: 27px;
+}
+.blog-section .blog-post-area .post-item .post-image{}
+.blog-section .blog-post-area .post-item .post-content {
+	padding: 1.25rem;
+}
+.blog-section .blog-post-area .post-item .post-content h4 {
+	margin-top: 9px !important;
+	margin-bottom: 15px !important;
+}
+.blog-section .blog-post-area .post-item .post-content h4 a{
+	color:#333;
+}
+.blog-section .blog-post-area .post-item .post-content .content-inner ul li {
+	margin-top: 14px;
+}
+.blog-section .blog-post-area .post-item .post-content .content-inner ul li a {
+	font-size: 13px;
+	margin-right: 20px;
+	color: #3333339e;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+/* side bar */
+.latest-post-item {
+	margin-bottom: 20px;
+	border: 1px solid #0054A61F;
+}
+.latest-post-item-image {
+	width: 185px;
+	height: 80px !important;
+}
+.latest-post-item-image img {
+	width: 185px;
+	height: 84px !important;
+}
+.latest-post-item-inner {
+	padding:8px;
+}
+.latest-post-item-inner h4 {
+	font-size: 15px;
+	margin-left: 13px !important;
+	color: #333;
+}
+.latest-post-item-inner h4 a{
+	color:#333;
+}
+.latest-post-item-inner ul {
+	margin-left: 13px;
+	margin-top: 7px;
+}
+.latest-post-item-inner ul li {
+	margin-right: 13px;
+}
+.latest-post-item-inner ul li a {
+	font-size: 13px;
+	color: #3333339e;
+}
+.sidebar-post-heading h3{
+	font-size:25px;
+}
+
+/* SINGLE PAGE */
+.single-post-inner h4 {
+	margin-top: 11px !important;
+	margin-bottom: 20px !important;
+}
+.single-post-inner h4 a{
+	color:#333;
+}
+.single-post-image img{
+	border-radius: .25rem;
+}
+.single-post-inner {
+	border: 1px solid #0054A61F;
+	margin-top: 36px;
+	padding: 20px;
+	border-radius: .25rem;
+}
+/***************************************************************************************************
+****************************************** END BLOG PAGE CSS ***************************************
+****************************************************************************************************/
+
 
 /***************************************************************************************************
 ********************************* START FOOTER SECTTION CSS   **************************************

@@ -110,7 +110,6 @@ jQuery(document).ready(function(){
                 });
 
                
-   
     //mixitup
     var mixer = mixitup('.latest-product');
     var mixer = mixitup(containerEl);
@@ -122,6 +121,8 @@ jQuery(document).ready(function(){
             duration: 300
         }
     });
+  
+
     //Counter up
     jQuery('.countUp').counterUp({
         delay: 10,
@@ -129,3 +130,4 @@ jQuery(document).ready(function(){
     });
 
 });
+

@@ -226,6 +226,15 @@
         margin-bottom: 30px;
         padding: 8px 22px;
     }
+    .our-mission-section {
+        height: unset !important;
+    }
+    .contact-section .contact-right {
+        padding: unset;
+        background: #fff;
+        border: unset;
+        border-radius: unset;
+    }
 }
 @media(max-width:575px){
     .slider-text h2 {

@@ -230,10 +230,11 @@ select option{
 .navbar .nav-item a.nav-link {
 	color: #333 !important;
 	font-family: 'Roboto';
-	margin-left: 20px;
+	margin-left: 11px;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 500;
+	letter-spacing: .2px;
 }
 .navbar .container{
 	padding:0px 15px;
@@ -289,8 +290,14 @@ select option{
 .section-title p{
 	margin-top:20px !important;
 }
-
-
+.menu-item-asia {
+	width: 300px;
+	top: 63px !important;
+}
+.menu-item-asia a{
+	font-size:14px;
+	font-weight: 300;
+}
 
 /***************************************************************************************************
 *************************************** END HEADER SECTION CSS    **********************************
@@ -1116,11 +1123,24 @@ transition-timing-function: ease-out;
 	margin-top: 14px;
 }
 .blog-section .blog-post-area .post-item .post-content .content-inner ul li a {
-	font-size: 13px;
-	margin-right: 20px;
+	font-size: 12px;
+	margin-right: 8px;
 	color: #3333339e;
 	font-weight: 500;
 	text-transform: capitalize;
+}
+.blog-prince {
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.blog-section .blog-post-area .post-item .post-content .content-inner ul li i {
+	font-size: 10px;
+	margin-left: 3px;
+	color:goldenrod;
+}
+.right-ul-align{
+	margin-top:-1px;
 }
 /* side bar */
 .latest-post-item {
@@ -1177,6 +1197,10 @@ transition-timing-function: ease-out;
 	margin-top: 36px;
 	padding: 20px;
 	border-radius: .25rem;
+}
+
+.price-align{
+	
 }
 /***************************************************************************************************
 ****************************************** END BLOG PAGE CSS ***************************************

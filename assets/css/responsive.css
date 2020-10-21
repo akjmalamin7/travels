@@ -60,6 +60,7 @@
         left: 0px;
         top: 90px;
         border-top: 1px solid #00000017;
+        border-bottom: 1px solid #00000017;
     }
     .navbar-nav {
         max-width: 723px;
@@ -128,6 +129,13 @@
     .about-section .about-left {
         margin-bottom: 60px;
     }
+    .mega-one {
+        margin-bottom: 35px;
+    }
+    .menu-item-asia {
+        width: 100%;
+    }
+
 }
 @media(max-width:767px){
     .top-header-section .header-contact a span {

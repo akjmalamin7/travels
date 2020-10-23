@@ -47,7 +47,38 @@ jQuery(document).ready(function(){
             }
           
 
-        });
+         });
+
+         // we do more 
+         jQuery('.we-do-slider').owlCarousel({
+            items:4,
+            loop:true,
+            autoplay:true,
+            nav:false,
+            navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+            margin:0,
+            dots:false,
+            autoplayTimeout:7000,
+            smartSpeed:750,
+            slideBy:1,
+            responsive:{
+                0:{
+                    items:1
+                },
+                575:{
+                    items:2
+                },
+                768:{
+                    items:3
+                },
+                992:{
+                    items:4
+                }
+
+            }
+          
+
+         });
               // our team
               jQuery('.our-team ').owlCarousel({
                 items:1,

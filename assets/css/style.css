@@ -1216,6 +1216,213 @@ transition-timing-function: ease-out;
 ****************************************** END BLOG PAGE CSS ***************************************
 ****************************************************************************************************/
 
+/***************************************************************************************************
+****************************************** START BREADCRUMB SECTION CSS ****************************
+****************************************************************************************************/
+.breadcrumb-section {
+	width: 100%;
+	background-image: url(../images/breadcrumb/breadcrumb-1.png);
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+/***************************************************************************************************
+******************************************END  BREADCRUMB SECTION CSS ******************************
+****************************************************************************************************/
+
+/***************************************************************************************************
+******************************************START ACHIVEMENT SECTION CSS *****************************
+****************************************************************************************************/
+.achivement-section{
+	background-color: #F3F3F3 !important;
+}
+.achivement-item .card {
+	border: 1px solid #0054A61F;
+	background-color: #F8FAFF;
+}
+.achivement-icon i{
+	font-size: 40px;
+	color: #0054A6;
+}
+.achivement-content {
+	margin-top: 26px;
+}
+.achivement-content h3{
+	font-size: 18px;
+	font-weight: 500;
+}
+.achivement-content span{
+	margin-top: 2px !important;
+	display: inline-block;
+}
+
+
+/***************************************************************************************************
+******************************************END ACHIVEMENT SECTION CSS *******************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+******************************************START WE DO MORE SECTION CSS *****************************
+****************************************************************************************************/
+.we-do-more-section {
+	
+}
+.we-do-more-item .card{
+	border-radius: 0px !important;
+}
+.we-do-more-item .card .card-body .card-body-inner h4{
+	/* margin-top: 25px !important; */
+	/* margin-bottom: 15px !important; */
+}
+.we-do-more-item .card{
+	border: 1px solid #0054A61F;
+	background-color: #F8FAFF;
+}
+/***************************************************************************************************
+******************************************END WE DO MORE SECTION CSS *******************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+********************************* START FEATURES AND FACILITIES SECTION CSS ************************
+****************************************************************************************************/
+.featured-and-facilities-section{
+	background-color: #F3F3F3 !important;
+}
+.facilities-items .card {
+	border: 1px solid #0054A61F;
+	background-color: #F8FAFF;
+}
+.facilities-items .card .card-body .body-inner{
+	display: flex;
+}
+.facilities-items .card .card-body .body-inner .facilities-icon i{
+	font-size: 40px;
+	color: #0054A6;
+}
+.facilities-items .card .card-body .body-inner .facilities-content h4 {
+	margin-bottom: 10px !important;
+}
+.facilities-items .card .card-body .body-inner .facilities-content p {
+	font-size: 14px;
+}
+.vaction-inner-content {
+	color: #fff !important;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 15px;
+}
+.top-vaction{
+	overflow: hidden;
+}
+.top-vaction img{
+	transition:.5s;
+}
+.top-vaction:hover img{
+	transform:scale(1.3);
+}
+/***************************************************************************************************
+********************************* END FEATURES AND FACILITIES SECTION CSS **************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+********************************* START TOP BUSINESS SECTION CSS ***********************************
+****************************************************************************************************/
+.top-business-inner h4.margin-top {
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+}
+.top-business-inner h4 a{
+	color:#333;
+}
+.top-business-bg{
+	background-color: #F3F3F3 !important;
+}
+/***************************************************************************************************
+*********************************** END TOP BUSINESS SECTION CSS ***********************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+******************************* START SELECT YOUR DESIER SECTION CSS *******************************
+****************************************************************************************************/
+.select-your-desired-section {
+	margin-bottom: 60px;
+}
+.select-your-desired-section .form-group {
+	border: 1px solid #0054A66E !important;
+	border-radius: .3rem;
+}
+.desier-button{
+	background-color:#0053A4 !important;
+	color:#fff !important;
+}
+/***************************************************************************************************
+********************************* START SELECT YOUR DESIER SECTION CSS *****************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+**************************************** START PROCESSING  SECTION CSS *****************************
+****************************************************************************************************/
+.processing-section{
+	background-color:#F3F3F3;
+}
+
+/* PROCESSING RIGHT */
+.porcessing-right{}
+.porcessing-right .processing-right-top{}
+.porcessing-right .processing-right-top h4 {
+	margin-bottom: 14px !important;
+}
+.porcessing-right .processing-right-top h6 {
+	margin-bottom: 30px !important;
+	font-size: 16px;
+}
+.porcessing-right .processing-right-top ul{}
+.porcessing-right .processing-right-top ul li{
+	line-height: 31px;
+}
+
+
+.processing-left img{
+	margin-top:-130px !important;
+}
+.processing-right-bottom {
+	margin-top: 30px;
+}
+.processing-right-bottom h4 {
+	border-bottom: 1px solid #0054A66E !important;
+	margin-bottom: 23px !important;
+	padding-bottom: 15px !important;
+}
+.processing-right-bottom ul li{
+	line-height: 31px;
+}
+
+/***************************************************************************************************
+****************************************** END PROCESSING  SECTION CSS *****************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+*************************************** START OUR DOCUMENTS  SECTION CSS ***************************
+****************************************************************************************************/
+.our-documents-section .column-1 h3 {
+	margin-bottom: 30px !important;
+}
+.our-documents-section .column-2 h4 {
+	margin-bottom: 15px !important;
+}
+.our-documents-section .column-2 ul li{
+	line-height: 31px;
+}
+/***************************************************************************************************
+***************************************** END OUR DOCUMENTS  SECTION CSS ***************************
+****************************************************************************************************/
+
 
 /***************************************************************************************************
 ********************************* START FOOTER SECTTION CSS   **************************************

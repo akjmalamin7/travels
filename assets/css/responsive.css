@@ -32,6 +32,9 @@
         margin-bottom: 0px;
         padding: 6px 17px;
     }
+    .facilities-items .card {
+        min-height: 125px;
+    }
 }
 @media(min-width:992px){
         /* .slider-text h2 {
@@ -134,6 +137,15 @@
     }
     .menu-item-asia {
         width: 100%;
+    }
+    .facilities-items .card {
+        min-height: 170px ;
+    }
+    .select-your-desired-section {
+        margin-bottom: 0px;
+    }
+    .processing-left img {
+        margin-top: 0px !important;
     }
 
 
@@ -243,6 +255,19 @@
         background: #fff;
         border: unset;
         border-radius: unset;
+    }
+    .achivement-item{
+        margin-bottom:27px;
+    }
+    .facilities-items .card{
+        margin-bottom:27px;
+        min-height: auto;
+    }
+    .porcessing-right {
+        margin-top: 70px;
+    }
+    .our-documents-section .column-2 ul li {
+        font-size: 14px;
     }
 }
 @media(max-width:575px){

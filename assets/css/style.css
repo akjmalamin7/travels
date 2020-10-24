@@ -346,7 +346,14 @@ select option{
 	opacity: .75;
 	color:#0c3e72;
 }
-
+.navbar-nav .nav-item a.nav-link:hover{
+	color: #0053A5 !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #0053A5;
+}
 .slick-dots li {
 	position: relative;
 	display: inline-block;

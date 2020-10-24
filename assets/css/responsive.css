@@ -269,6 +269,12 @@
     .our-documents-section .column-2 ul li {
         font-size: 14px;
     }
+    .umrah-gallery-right .card .card-header h3 {
+        font-size: 20px;
+    }
+    h2{
+        font-size:23px;
+    }
 }
 @media(max-width:575px){
     .slider-text h2 {
